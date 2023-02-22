@@ -1,0 +1,32 @@
+.container {
+  background-color: rgba(0, 150, 184);
+  padding: 10px 10px 20px;
+  border-radius: 14px;
+  h2 {
+    padding: 10px 0 20px 0;
+    color: white;
+    text-align: center;
+  }
+  .questions {
+    section div,
+    p {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 40px;
+      margin-top: 0;
+      button {
+        color: #313362;
+        background: #dde1df;
+      }
+    }
+    section p {
+      padding-bottom: 20px;
+      text-align: justify;
+    }
+    section > div.closed {
+      margin-bottom: 20px;
+    }
+  }
+}
